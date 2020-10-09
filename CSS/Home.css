@@ -1,0 +1,128 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+main {
+    background-color: orange;
+}
+
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*Start the global navigation styling section*/
+ .header_labels {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit- sticky; /* Safari */
+    position: sticky;
+  }
+  
+  .header_labels li {
+    float: left;
+  }
+  
+  .header_labels li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header_labels li a:hover:not(.active) {
+    background-color: orange;
+    color: lightgoldenrodyellow;
+  } 
+
+  .header_labels .active {
+    background-color: orange;
+    color: lightgoldenrodyellow;
+  }
+  /*End of global navigation section*/
+
+  /*Start booking history styling section*/
+  main .aside_labels {
+    list-style-type: none;
+    float: left;
+    display: block;
+    margin-left: 50px;
+    padding: 0;
+    width: 20%;
+    background-color: orange;
+    text-align: center;
+    top: 0;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 535;
+    border: 2px solid lightgoldenrodyellow;
+  }
+  
+  main .aside_labels li, a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  main .aside_labels li:hover {
+    background-color:lightgoldenrodyellow;
+    color: orange;
+  }
+
+  li .active {
+    background-color: lightgoldenrodyellow;
+    color: orange;
+  }
+  /*Start the buttons styling section*/
+  button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: orangered; 
+    color: lightgoldenrodyellow; 
+    border: 2px solid lightgoldenrodyellow;
+  }
+
+  button:hover {
+    background-color: lightgoldenrodyellow;
+    color: orange;
+  }
+
+  main .buttons {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    width: 20%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  /*End of buttons styling section*/
+
+  /*Start of map section*/
+  main .map {  
+    width: 50%;
+    border: none;
+    border: 0; 
+    float: left;
+    display: block;
+  }
+  /*End of map section*/
+
+  footer {
+      text-align: center;
+  }

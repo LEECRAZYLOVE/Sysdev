@@ -1,0 +1,105 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+main {
+  background-color: orange;
+}
+
+main:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/*Start the global navigation styling section*/
+ .header_labels {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit- sticky; /* Safari */
+    position: sticky;
+  }
+  
+  .header_labels li {
+    float: left;
+  }
+  
+  .header_labels li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header_labels li a:hover:not(.active) {
+    background-color: orange;
+    color: lightgoldenrodyellow;
+  } 
+
+ .header_labels .active {
+    background-color: orange;
+    color: lightgoldenrodyellow;
+  }
+  /*End of global navigation section*/
+
+  
+/*Start the local navigation styling section*/
+  .aside_labels {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .aside_labels li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  .aside_labels li a:hover {
+    background-color:lightgoldenrodyellow;
+    color: orange;
+  }
+
+   .lower_section {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  main .local_nav {
+    list-style-type: none;
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: orange;
+    text-align: center;
+    top: 0;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 535;
+  }
+   /*End of local navigation section*/
+
+   /*Start of map section*/
+   main .map {
+    width: 80%;
+    border: none;
+    border: 0; 
+  }
+   /*End of map section*/
+
+   footer {
+    text-align: center;
+}
